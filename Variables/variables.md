@@ -10,7 +10,7 @@ To declare a variable in JavaScript, you use the `var`, `let`, or `const` keywor
 - **let** : Variables declared with `let` have block scope, which means they are only accessible within the block (enclosed by curly braces) in which they are defined. `let` variables can be reassigned.
 - **const** : Variables declared with `const` are also block-scoped, but they cannot be reassigned after their initial value is assigned. However, for objects and arrays declared with `const`, their properties or elements can be modified.
  
-The names of variables, called **identifiers**, conform to certain rules. A JavaScript identifier usually starts with a letter, underscore (_), or dollar sign ($). Subsequent characters can also be digits (0 – 9). Because JavaScript is case sensitive, letters include the characters A through Z (uppercase) as well as a through z (lowercase).
+The names of variables, called `identifiers`, conform to certain rules. A JavaScript identifier usually starts with a letter, underscore (_), or dollar sign ($). Subsequent characters can also be digits (0 – 9). Because JavaScript is case sensitive, letters include the characters A through Z (uppercase) as well as a through z (lowercase).
 
 ```javascript
 // Variable declaration
@@ -31,7 +31,7 @@ lastName = "Malkovich"; // Declaration and initialization separately
 
 ## Variable Scope
 
-In JavaScript, variable scope refers to the context in which a variable is declared and where it can be accessed or modified. Understanding variable scope is crucial because it determines the visibility and lifetime of variables in your code. JavaScript has two main types of variable scope: global scope and local (or block) scope.
+In JavaScript, variable `scope` refers to the context in which a variable is declared and where it can be accessed or modified. Understanding variable scope is crucial because it determines the visibility and lifetime of variables in your code. JavaScript has two main types of variable scope: global scope and local (or block) scope.
 
 - ### Global Scope
   Variables declared outside of any function or block have global scope. They can be accessed from anywhere in your code, including within functions or blocks. However, using global variables should be done          carefully because they can lead to unexpected behavior and make your code less maintainable.
@@ -59,7 +59,7 @@ In JavaScript, variable scope refers to the context in which a variable is decla
         ```
 
   - ### Block Scope with let and const
-    In modern JavaScript, you can use **let** and **const** to declare variables with block scope. Unlike var, which has function scope, let and const are limited to the block in which they are defined, such           as an if statement or a for loop
+    In modern JavaScript, you can use `let` and `const` to declare variables with block scope. Unlike `var`, which has function scope, let and const are limited to the block in which they are defined, such           as an if statement or a for loop
 ```javascript
         if (true) {
         // Block-scoped variable
@@ -71,7 +71,7 @@ In JavaScript, variable scope refers to the context in which a variable is decla
 ```
 
 - ### Function Scopes
-   Variables declared with **var** are function-scoped. This means they are accessible throughout the entire function in which they are declared, but they are not accessible outside of that function.
+   Variables declared with `var` are function-scoped. This means they are accessible throughout the entire function in which they are declared, but they are not accessible outside of that function.
 ```javascript
 function exampleFunction() {
             if (true) {
