@@ -1,4 +1,4 @@
-# Variables
+<h1>Variables</h1>
 
 In JavaScript, variables are used to store and manage data. They act as containers that hold different types of values, such as `numbers`, `strings`, or `objects`, which can be used and manipulated throughout your code. Variables are an essential concept in programming, and understanding how to declare and initialize them is fundamental.
 
